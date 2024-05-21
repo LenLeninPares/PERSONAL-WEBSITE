@@ -1,0 +1,83 @@
+<button class="SUBSCRIBE-button">
+    SUBSCRIBE
+</button>
+<button class="Tweeter-button">
+    Tweeter
+</button>
+<button class="JOIN-button">
+    JOIN
+</button>
+<p1>PICTURE ANYTHING YOU WANT</p1>
+<center></center>
+
+<style>
+    .SUBSCRIBE-button {
+        background-color: rgb(138, 4, 4);
+        color: white;
+        border: 3px;
+        border-style: solid;
+        height: 50px;
+        width: 130px;
+        margin: 40px;
+        transition: background-color 1s; 
+        cursor: pointer;
+        border-color: rgb(117, 6, 6);       
+    }
+    .SUBSCRIBE-button:hover {
+       background-color: blueviolet;
+       color: aquamarine;
+    }
+    .SUBSCRIBE-button:active {
+        opacity: 0.10;
+    }
+    .tweeter-button {
+        background-color: rgb(3, 19, 231);
+        color: white;
+        height: 50px;
+        width: 130px;
+        margin: 20px;
+        border-style: solid;
+        border: none;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer; 
+        margin: 40px;
+    }
+    .tweeter-button:hover {
+        background-color: lightblue;
+        color: white;
+    }
+    .tweeter-button:active {
+        opacity: 0.10;
+    }
+    .Join-button {
+        background-color: white;
+        color: rgb(12, 156, 204);
+        border: none;
+        height: 50px;
+        width: 130px;
+        margin: 20px;
+        border-color: rgb(1, 51, 143);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 1px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        margin: 40px;
+    }
+    .Join-button:hover {
+        background-color:aqua;
+        color: white;
+    }
+    .Join-button:active {
+        opacity: 0.10;
+    }
+   p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: red;
+   }
+</style>
+
